@@ -176,6 +176,7 @@ public class GenericPointsControllerTest {
                 .andReturn();
     }
 
+    /*
     @Test
     public void corsHeaders() throws Exception {
         final String urlResourceGenericPoint = "/generic-point";
@@ -189,7 +190,7 @@ public class GenericPointsControllerTest {
                 .andExpect(header().string("Access-Control-Allow-Methods", "POST, GET, PUT, OPTIONS, DELETE"))
                 .andExpect(header().string("Access-Control-Allow-Headers", "*"))
                 .andExpect(header().string("Access-Control-Max-Age", "3600"));
-    }
+    }*/
 
     /*
      * converts a Java object into JSON representation
