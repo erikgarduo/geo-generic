@@ -1,0 +1,8 @@
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (1,'Building 1','description1','images/image1','icons/icon1', -98.131233,120.23454,1,'email1@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (2,'Building 2','description2','images/image2','icons/icon2', -98.131233,120.23454,0,'email2@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (3,'Building 3','description3','images/image3','icons/icon3', -98.131233,120.23454,1,'email3@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (4,'Building 4','description4','images/image4','icons/icon4', -98.131233,120.23454,1,'email4@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (5,'Building 5','description5','images/image5','icons/icon5', -98.131233,120.23454,0,'email5@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (6,'Building 6','description6','images/image6','icons/icon6', -98.131233,120.23454,1,'email6@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (7,'Building 7','description7','images/image7','icons/icon7', -98.131233,120.23454,1,'email7@gmail.com');
+insert into generic_geo_point(id,name, description, image,icon,lat,lon,available,email) values (8,'Building 8','description8','images/image8','icons/icon8', -98.131233,120.23454,0,'email8@gmail.com');
