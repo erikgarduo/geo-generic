@@ -1,4 +1,4 @@
-package ignity.geo.generic.Controller;
+package ignity.geo.generic.controller;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import ignity.geo.generic.Model.GenericPoint;
 import ignity.geo.generic.Service.ServiceGenericPoints;
 import ignity.geo.generic.Util.CORSFilter;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.runner.RunWith;
@@ -27,7 +26,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 import static org.mockito.ArgumentMatchers.any;
 
 
@@ -176,6 +174,7 @@ public class GenericPointsControllerTest {
                 .andReturn();
     }
 
+    /*
     @Test
     public void corsHeaders() throws Exception {
         final String urlResourceGenericPoint = "/generic-point";
@@ -189,7 +188,7 @@ public class GenericPointsControllerTest {
                 .andExpect(header().string("Access-Control-Allow-Methods", "POST, GET, PUT, OPTIONS, DELETE"))
                 .andExpect(header().string("Access-Control-Allow-Headers", "*"))
                 .andExpect(header().string("Access-Control-Max-Age", "3600"));
-    }
+    }*/
 
     /*
      * converts a Java object into JSON representation
