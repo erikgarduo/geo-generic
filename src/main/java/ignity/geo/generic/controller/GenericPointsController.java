@@ -13,6 +13,11 @@ public class GenericPointsController {
     @Autowired
     ServiceGenericPoints serviceGenericPoints;
 
+    @GetMapping("/")
+    public String helloWorld(){
+        return "Hello World";
+    }
+
     @GetMapping("/generic-point")
     public GenericPoint retrieveOneGenericPoint(@RequestParam long idGenericPoint){
         return new GenericPoint("Name",Boolean.TRUE, -12.3133223,96.24344);
