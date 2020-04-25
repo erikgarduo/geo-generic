@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Data
@@ -12,6 +14,7 @@ import javax.persistence.Id;
 public class GenericGeoPoint {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String name;
     private String description;
@@ -22,7 +25,7 @@ public class GenericGeoPoint {
     private short available;
     private String email;
 
-    public GenericGeoPoint() {
+    protected GenericGeoPoint() {
 
     }
 }
